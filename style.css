@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-site {
+    background-image: url("../IMG/banner-my.png");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    
+}
+
+.subtitulo {
+    color: #791186;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.link-banner {
+    color: #791186;
+    background-color: white;
+    
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px 20px;
+}
+
+.link-banner:hover {
+    color: white;
+    background-color: #faa214;
+    transition: 0.5s;
+}
+
+.sobre-mim {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #c4c4c4;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+#section-sobre-mim {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 50px 130px;
+}
+
+.textos-sobre {
+    line-height: 30px;
+    margin-right: 80px;
+    margin-bottom: 90px;
+    width: 50%;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.sobre-mim-um {
+    margin-bottom: 20px;
+    width: 80%;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.lista-sobre { 
+    width: 50%;
+    margin-bottom: 80px;
+    line-height: 20px;
+}
+
+.titulo-habilidades {
+    color: #c4c4c4;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.link-sobre-mim {
+    background-color: white;
+    color: #791186;
+    border: 1px solid #791186;
+    text-decoration: none;
+    padding: 6px 20px;
+    border-radius: 20px;
+}
+
+.link-sobre-mim:hover {
+    background-color: #faa214;
+    color: white;
+    border: 1px solid #faa214;
+    transition: 0.5s;
+}
+
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+}
+.redes-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    background-color: #791186;
+    width: 150px;
+    height: 180px;
+    border-radius: 15px;
+}
+
+.redes-cards:hover {
+    color: white;
+    background-color: #dfdddd;
+    transition: 0.5s;
+}
+
+.nome-rede {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.nome-user {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.icone-redes {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    background-color: #c4c4c4;
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+}
+
+.footer-text {
+    
+    color:#791186;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.footer-text:hover {
+    color: #faa214;
+    transition: 0.5s;
+}
